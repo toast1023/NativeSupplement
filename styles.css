@@ -126,6 +126,7 @@ h1 {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
+	padding: 0;
 }
 .blob-2 {
 	flex-wrap: wrap-reverse;
@@ -144,9 +145,13 @@ h1 {
 }
 .someImage
 {
-	min-height: 450px;
+	min-height: 600px;
 	width: 100%;
 	background-color: #ffcf33;
+}
+.graphic
+{
+	width: 100%;
 }
 .side-graphic img {
 	width: 100%;
@@ -155,7 +160,7 @@ h1 {
 	width: 40%;
 	min-width: 230px;
 	max-width: 500px;
-	margin-top: 40px;
+	margin-top: 70px;
 	position: relative;
 }
 .story-stack a {
@@ -177,7 +182,9 @@ h1 {
 	top: -5px;
 	color: #57b4b1;
 }
-
+#podcastSection {
+	padding: 7%;
+}
 /* Videos */
 #video-section {
 	padding: 7%;
@@ -356,4 +363,57 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+}
+/* Cover */
+#cover0 {
+	display: flex;
+	justify-content: center;
+	margin: 3em 20px;
+	flex-wrap: wrap;
+	margin-top: 8%;
+	marin-bottom: 50%;
+
+}
+#cover0-art-container {
+	width: 50%;
+	min-width: 280px;
+	text-align: center;
+}
+#cover0-art {
+	width: 100%;
+	max-width: 560px;
+}
+#cover0-description {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+	padding: 10px;
+	padding-left: 5%;
+}
+#cover0-description p {
+	font-style: italic;
+	font-size: 2vw;
+	color: #942041;
+}
+#cover0-description a {
+	text-decoration-color: #942041;
+	text-decoration:  underline;
+
+}
+#cover0-text {
+	font-size: 3vw;
+	text-align: left;
+	display: inline-block;
+}
+.read-story {
+	margin-bottom: 0px;
+}
+.read-print {
+	margin-top: 2px;
+}
+.read-whatever{
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
