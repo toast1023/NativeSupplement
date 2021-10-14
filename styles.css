@@ -1,0 +1,359 @@
+/* General */
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: 'Fanwood Text', serif;
+	background-color: #FAC6D3;
+	color: #3c1b19;
+	margin: 0;
+	font-size: 18px;
+}
+h1, h2, h3, h4 {
+	font-family: 'Cormorant Garamond', serif;
+}
+h1 {
+	font-size: 40px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin: 1px;
+}
+.title {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 40px;
+	font-weight: 1000;
+	margin: 1px;
+}
+.title-img {
+	width: 380px;
+	/*min-width: 250px;*/
+}
+.subtitle {
+	font-family: 'Fanwood Text', serif;
+	font-size: 24px;
+	font-weight: bold;
+	margin: 1px;
+}
+.yellowlight {
+	background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #997372 65%);
+}
+.line {
+	border-color: 1px solid #5F302E;
+	width: 60%;
+	opacity: 60%;
+}
+.align-right {
+	text-align: right;
+}
+
+/* Header */
+#header {
+	height: 3em;
+	text-align: center;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	line-height: 3em;
+	z-index: 10001;
+	background-color: #420F6B;
+}
+.logo-container {
+	width: 130px;
+	margin: auto;
+	margin-top: 2px;
+}
+.logo {
+	width: 100%;
+	margin-top: 8px;
+}
+#cover img {
+	width: 100%;
+	padding: 0;
+}
+#cover0 img {
+	max-height: 1000px;
+	width: 100%;
+	padding: 0;
+}
+#cover2 {
+	background-color: #420F6B;
+	height: 500px;
+}
+#cover {
+	background-color: #5F302E;
+}
+#cover-heading {
+	height: 200px;
+}
+/* Editor Letter */
+#editor-section {
+	width: 60%;
+	min-width: 300px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#editor-body {
+	text-align: justify;
+	margin-left: 11%;
+}
+#editor-title, #editor-names {
+	font-size: 32px;
+	font-weight: 1000;
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic;
+	color: #3c1b19;
+}
+#editor-names {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+#editor-text {
+	margin-top: 30px;
+}
+#editor-signature {
+	text-align: right;
+}
+
+/* Articles Section */
+#articles {
+	padding: 5%;
+}
+.blob {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.blob-2 {
+	flex-wrap: wrap-reverse;
+}
+.side-graphic {
+	width: 40%;
+	min-width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/*image placement*/
+/*	min-height: 500px;
+
+*/
+	margin-bottom: 100px;
+}
+.someImage
+{
+	min-height: 450px;
+	width: 100%;
+	background-color: #ffcf33;
+}
+.side-graphic img {
+	width: 100%;
+}
+.story-stack {
+	width: 40%;
+	min-width: 230px;
+	max-width: 500px;
+	margin-top: 40px;
+	position: relative;
+}
+.story-stack a {
+	color: #5F302E;
+	text-decoration: none;
+}
+.story-stack .story-title:hover {
+	/*color: #A58297;*/
+}
+.stacked-story {
+	margin: 25px 0px;
+}
+.stacked-story {
+	/*color: #5F302E;*/
+	color: #997372;
+}
+.stacked-story:hover {
+	position: relative;
+	top: -5px;
+	color: #57b4b1;
+}
+
+/* Videos */
+#video-section {
+	padding: 7%;
+}
+.videos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+.video-title {
+	text-align: center;
+}
+.video-dek {
+	padding: 5px 10%;
+	font-weight: 400;
+	text-align: center;
+}
+.video-cell {
+	width: 40%;
+	margin: 10px;
+	margin-bottom: 30px;
+	min-width: 300px;
+}
+.video-cell-3 {
+	width: 30%;
+}
+.video-cell iframe {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+.video-cell h3 {
+	text-align: center;
+}
+.student-subtitle {
+	text-decoration: none;
+	color: #A58297;
+	font-size: .9em;	
+}
+.artist-ig {
+	text-decoration: none;
+	color: #A58297;
+	font-size: .9em;
+}
+.artist-ig:hover {
+	text-decoration: underline;
+}
+
+/* Footer */
+footer {
+	background-color: #420F6B;
+	color: #ffcf33;
+	padding: 50px 20px;
+	text-align: center;
+	margin: auto;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 90%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  color: #ffcf33;
+  text-decoration: none;
+
+}
+.text .a:visited{
+	color: #ffcf33;
+	text-decoration: none;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+a, a:link, a:visited, a:focus, a:hover, a:active{
+	color: #ffcf33;
+  text-decoration: none;
+}
+
+
+/*podcast*/
+.podcast-div
+{
+	margin-top: 5%;
+}
+.podcast
+{
+	border: none;
+	width: 90%;
+	height: auto;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
