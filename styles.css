@@ -363,6 +363,9 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
 {
 	margin-top: 5%;
 }
+.block4{
+	margin-top: 4%;
+}
 .podcast
 {
 	border: none;
@@ -428,4 +431,61 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
 .read-whatever{
 	margin-top: 0px;
 	margin-bottom: 0px;
+}
+.podText{
+		margin-top: 2;
+}
+@media screen and (max-width: 700px) {
+	#cover0-art-container{
+		margin-left: 0%;
+		margin-top: 25%;
+	}
+	#cover0-description{
+		text-align: center;
+	}
+	#cover0-text{
+		text-align: center;
+		font-size: 1.5em;
+	}
+	#cover0-description p {
+		font-size: 1em;
+	}
+	#cover0{
+		margin: 0;
+	}
+	.story-stack{
+		margin-top: 0px;
+	}
+	.side-graphic{
+		margin-bottom: 10px;
+	}
+	.story-title{
+		margin-top: 0;
+	}
+	.podText{
+		margin-top: 0;
+	}
+	.block4{
+		margin-top: 15%;
+		margin-bottom: 15%;
+	}
+	.video-title{
+		font-size: 1.5em;
+	}
+	.someImage1{
+		margin-bottom: 20%;
+	}
+	.podText2{
+		margin-top: 0;
+	}
+	#podcastSection
+	{
+		margin-bottom: 15%;
+	}
+	#footer{
+			font-size: 0.8em;
+	}
+	.produce{
+		margin-top: 0;
+	}
 }
