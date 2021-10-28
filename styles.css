@@ -7,13 +7,13 @@ body {
 	background-color: #FAC6D3;
 	color: #3c1b19;
 	margin: 0;
-	font-size: 18px;
+	font-size: 1.5em;
 }
 h1, h2, h3, h4 {
 	font-family: 'Cormorant Garamond', serif;
 }
 h1 {
-	font-size: 40px;
+	font-size: 2.5em;
 	letter-spacing: 1px;
 	font-weight: bold;
 	margin: 1px;
@@ -95,13 +95,12 @@ h1 {
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
-
 #editor-body {
 	text-align: justify;
 	margin-left: 11%;
 }
 #editor-title, #editor-names {
-	font-size: 32px;
+	font-size: 2.5em;
 	font-weight: 1000;
 	font-family: 'Cormorant Garamond', serif;
 	font-style: italic;
@@ -124,7 +123,7 @@ h1 {
 }
 .blob {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	flex-wrap: wrap;
 	padding: 0;
 }
@@ -159,8 +158,7 @@ h1 {
 .story-stack {
 	width: 40%;
 	min-width: 230px;
-	max-width: 500px;
-	margin-top: 70px;
+	margin-top: 5%;
 	position: relative;
 }
 .align-right{
@@ -395,7 +393,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
 }
 #cover0-art {
 	width: 100%;
-	max-width: 560px;
+	max-width: 700px;
 }
 #cover0-description {
 	flex-grow: 1;
